@@ -8,6 +8,8 @@ So far the metal insert version is holding up much better under use than the 100
 
 ### Brass fastener version:
 
+The plastic threaded rods kept breaking when I drop the balls and they hit too hard. I've been playing around with these threaded inserts lately and figured this would be a good use for them. I put one in each half and then cut down a small threaded rod to serve as the connector pin.
+
 I used 8-32 threaded rod with matching [brass press-fit expansion inserts](http://www.mcmaster.com/#standard-threaded-inserts/=zbno3k)
 
 ![image](https://raw.githubusercontent.com/FoamyGuy/3d-printed-juggling-balls/master/brass_insert_ball.png "Brass Inserts")
