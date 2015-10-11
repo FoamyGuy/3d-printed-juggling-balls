@@ -1,7 +1,18 @@
 OpenScad Juggling Ball
 ----------------------
+![image](https://raw.githubusercontent.com/FoamyGuy/3d-printed-juggling-balls/master/rgb_set.png "RGB Set")
 
 One ball is made up of 3 total parts. Two halves and one threaded rod to connect them together.
+
+So far the metal insert version is holding up much better under use than the 100% plastic ones.
+
+### Brass fastener version:
+
+I used 8-32 threaded rod with matching [brass press-fit expansion inserts](http://www.mcmaster.com/#standard-threaded-inserts/=zbno3k)
+
+![image](https://raw.githubusercontent.com/FoamyGuy/3d-printed-juggling-balls/master/brass_insert_ball.png "Brass Inserts")
+
+### 100% printed version:
 
 Big thanks to aubenc. The threaded rod comes from [his thing](http://www.thingiverse.com/thing:8796)
 

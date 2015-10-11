@@ -1,6 +1,18 @@
 include <polyScrewThread_r1.scad>
 $fn=40;
 
+/**********
+* Variables
+***********/
+BALL_DIAMETER = 44;
+THREAD_HOLE_DIAMETER = 16;
+THREAD_HOLE_DEPTH = 16;
+
+ROD_DIAMETER = 14;
+ROD_HEIGHT = (THREAD_HOLE_DEPTH * 2) - 1;
+
+
+
 /****************
 * Modules
 *****************/
@@ -13,20 +25,13 @@ module countersink_end(chg,cod,clf,crs,hg)
              $fn=floor(cod*PI/crs), center=false);
 }
 
-/**********
-* Variables
-***********/
-BALL_DIAMETER = 44;
-THREAD_HOLE_DIAMETER = 9;
-THREAD_HOLE_DEPTH = 16;
 
-ROD_DIAMETER = 7;
-ROD_HEIGHT = (THREAD_HOLE_DEPTH * 2) + 1;
 
 
 /************
 * Main Render
 *************/
+/*
 difference(){
     sphere(d=BALL_DIAMETER);
     
@@ -60,8 +65,8 @@ difference(){
         }
     }
      
-} 
+}*/ 
 
 
 // Threaded Rod Connector
-//screw_thread(ROD_DIAMETER,4,55,ROD_HEIGHT,PI/2,2);
+screw_thread(ROD_DIAMETER,3,55,ROD_HEIGHT,PI/2,2);
